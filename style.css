@@ -1,26 +1,33 @@
-head {
-    h1 {
-        position:fixed;
-        left: 400px;
-        top: 5px;
-    }
-}
-
-*{
-    align-self: center;
-    text-align: center;
-}
 
 
 body {
-    background-color: azure  ;
+    h1 {
+        text-align: center;
+    }
+    background-color: rgb(118, 225, 225)  ;
     
     img{
         border: 5px solid sandybrown;
-        left: 50%;
-        top: 150px;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
+    img:hover {
+        box-shadow: 0 0 8px 4px rgba(43, 45, 46, 0.5);
+      }
+      
 
-    
 
+
+      h3 {
+        position: absolute;
+        top: 70px;
+        left: 50px;
+      }
+      ul {
+        position: absolute;
+        top: 100px;
+        left: 50px;
+      }
 }
