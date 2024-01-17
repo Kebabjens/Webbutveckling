@@ -1,0 +1,26 @@
+head {
+    h1 {
+        position:fixed;
+        left: 400px;
+        top: 5px;
+    }
+}
+
+*{
+    align-self: center;
+    text-align: center;
+}
+
+
+body {
+    background-color: azure  ;
+    
+    img{
+        border: 5px solid sandybrown;
+        left: 50%;
+        top: 150px;
+    }
+
+    
+
+}
