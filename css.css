@@ -1,4 +1,67 @@
 h1 {
-    color:cornflowerblue;
+    color: rgb(0, 0, 0);
     text-align: center;
+    font-size: 40px;
+    
+}
+body {
+    background-color: antiquewhite;
+}
+.stronk{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    background-color: rgb(138, 190, 173);
+    border: 2px solid black;
+.bild{
+    width: 300px;
+    height: auto;
+}
+}
+.lista{
+    border: 4px solid rgb(43, 45, 46);
+    width: 10%;
+}
+h3{
+    text-align: center;
+}
+.jag-bild{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 58%;
+    width: auto;
+}
+.text{
+    width: 600px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.rubrik{
+    position: sticky;
+    background-image: url(damm.jpg);
+    height: 0%;
+    top: 0;
+}
+.dota{
+    position: absolute;
+    bottom: 27%;
+    right: 25%;
+    background-color: rgb(138, 190, 173);
+    border: 2px solid black;
+}
+.techies{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.links {
+    position: absolute;
+    display: flex;
+    top: 20%;
+    left: 20%;
+    width: 10%;
+    height: 10%;
+    background-color: blueviolet;
 }

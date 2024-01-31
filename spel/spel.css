@@ -1,0 +1,12 @@
+canvas {
+    border: 1px solid #000;
+    display: block;
+    margin: 50px auto;
+}
+body {
+    background-color: slategray;
+}
+h1 {
+    text-align: center;
+    font-size: 100px;
+}

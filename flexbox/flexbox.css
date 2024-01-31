@@ -1,0 +1,31 @@
+.kontainer {
+    background-color: blue;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-content: flex-end;
+   
+}
+.item {
+    order: 5;
+}
+.ett {
+    background-color: chartreuse;
+    width: 10%;
+    height: 10%;
+    flex-grow: 1;
+    align-items: stretch;
+}
+.tva {
+    background-color:darkred;
+    width: 10%;
+    height: 10%;
+    flex-grow: 3;
+    align-items: stretch;
+}
+.tre {
+    background-color:cornsilk;
+    width: 10%;
+    height: auto;
+    flex-grow: 1;
+}
