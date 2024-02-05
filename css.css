@@ -6,18 +6,23 @@ h1 {
 }
 body {
     background-color: antiquewhite;
+    }
+.bild {
+    bottom: 1%;
+    position: absolute;
+    background-color: rgb(77, 193, 158);
+    border: 2px solid black;
 }
 .stronk{
-    position: absolute;
-    right: 0%;
-    bottom: 0%;
-    background-color: rgb(138, 190, 173);
-    border: 2px solid black;
-.bild{
-    width: 300px;
+    width: 18%;
+    right: 1%;
+    
+}
+.muskler{
+    width: 100%;
     height: auto;
 }
-}
+
 .lista{
     border: 4px solid rgb(43, 45, 46);
     width: 10%;
@@ -25,43 +30,71 @@ body {
 h3{
     text-align: center;
 }
+.jens-bild{
+    left: 1%;
+    width: 13%;
+}
 .jag-bild{
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    height: 58%;
-    width: auto;
-}
-.text{
-    width: 600px;
-    position: absolute;
-    top: 40%;
-    left: 25%;
-}
-.rubrik{
-    position: sticky;
-    background-image: url(damm.jpg);
-    height: 0%;
-    top: 0;
+    width: 100%;
+    height:auto
 }
 .dota{
-    position: absolute;
-    bottom: 27%;
     right: 25%;
-    background-color: rgb(138, 190, 173);
-    border: 2px solid black;
+    width: 18%;
 }
 .techies{
-    position: absolute;
     width: 100%;
     height: auto;
 }
+.springa {
+    left: 20%;
+    width: 13%;
+}
+.eliud{
+    width: 100%;
+    height: auto;
+}
+.text{
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center ;
+    text-align: center;
+    font-size: 1.25vw;
+}
+.rubrik{
+    position: sticky;
+    background-image: url(bilder/damm.jpg);
+    height: 0%;
+    top: 0;
+}
+
 .links {
     position: absolute;
     display: flex;
     top: 20%;
-    left: 20%;
-    width: 10%;
-    height: 10%;
-    background-color: blueviolet;
+    left: 30%;
+    width: 40%;
+    height: 15%;
+    background-color: rgb(77, 193, 158);
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.länkar{
+    position: relative;
+    background-color: darkgrey; 
+    height: 80%;
+    top: 10%;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+.länkar:hover {
+    width: 25%;
+    height: 90%;
+    top: 5%;
 }

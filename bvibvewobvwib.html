@@ -9,6 +9,8 @@
 </head>
 <body>
   <h1>Flappy Gräsand</h1>
+  <h2>Space - Flaxa med vingarna</h2>
+  <h2>D - dasha</h2>
   <canvas id="flappyBirdCanvas" width="640" height="420"></canvas>
 
   <script>
@@ -16,10 +18,10 @@
     const ctx = canvas.getContext('2d');
 
     let backgroundImage = new Image();
-    backgroundImage.src = "damm.jpg"
+    backgroundImage.src = "bilder/damm.jpg"
 
     let treeImg = new Image();
-    treeImg.src = "träd.png"
+    treeImg.src = "bilder/träd.png"
     const bird = {
       img: new Image (),
       x: 50,
@@ -31,7 +33,7 @@
       gravity: 0.2,
       jumpStrength: 4
     };
-    bird.img.src = "./fågel.png";
+    bird.img.src = "bilder/fågel.png";
     ctx.imageSmoothingEnabled = false
     const pipes = [];
     let pipeTimer = 0;
