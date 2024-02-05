@@ -7,7 +7,7 @@ canvas {
     margin: 50px auto;
 }
 body {
-    background-color: slategray;
+    background-color: rgb(108, 113, 118);
 }
 h1 {
     text-align: center;
@@ -16,6 +16,14 @@ h1 {
 h2 {
     left: 5%;
 }
-.länkar{
-    
+.länk{
+    text-decoration: none;
+    color: black;
+
+
+}
+.link{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
 }

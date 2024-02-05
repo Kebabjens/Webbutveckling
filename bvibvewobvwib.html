@@ -12,8 +12,8 @@
   <h2>Space - Flaxa med vingarna</h2>
   <h2>D - Dash</h2>
   <canvas id="flappyBirdCanvas" width="640" height="420"></canvas>
-  <a class="länkar" href="jens.html">
-    <div >
+  <a class="länk" href="jens.html">
+    <div class="link" >
         tillbaka till huvudsidan
     </div>
 </a>
@@ -31,8 +31,8 @@
       img: new Image (),
       x: 50,
       y: canvas.height / 2 - 15,
-      width: 50,
-      height: 50,
+      width: Math.random() * 100,
+      height: Math.random() * 100,
       color: '#FF0000',
       velocityY: 10,
       gravity: 0.2,
@@ -92,7 +92,7 @@
       }
 
       // Generate new pipes
-      if (pipeTimer >= (pipeThreshold - score / 2)) {
+      if (pipeTimer >= (pipeThreshold - score/2)) {
         pipeTimer = 0;
         const pipeGap = 150;
         const pipeHeight = Math.floor(Math.random() * (canvas.height - pipeGap));
