@@ -2,7 +2,7 @@
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5vw;
     
 }
 body {
@@ -13,8 +13,9 @@ body {
     position: absolute;
     background-color: rgb(77, 193, 158);
     border: 2px solid black;
+    font-size: 1.4vw;
 }
-.stronk{
+.fysik{
     width: 18%;
     right: 1%;
     
@@ -30,6 +31,10 @@ body {
 }
 h3{
     text-align: center;
+    font-size: 1.4vw;
+}
+ul{
+    font-size: 1.2vw;
 }
 .jens-bild{
     left: 1%;
@@ -40,7 +45,7 @@ h3{
     height:auto
 }
 .dota{
-    right: 25%;
+    right: 22%;
     width: 18%;
 }
 .techies{
@@ -48,7 +53,7 @@ h3{
     height: auto;
 }
 .springa {
-    left: 20%;
+    left: 17%;
     width: 13%;
 }
 .eliud{
@@ -56,15 +61,24 @@ h3{
     height: auto;
 }
 .text{
-    width: 50%;
+    
     margin: auto;
     position: absolute;
-    top: 43%;
-    left: 50%;
     transform: translate(-50%, -50%);
     align-items: center ;
     text-align: center;
     font-size: 1.25vw;
+}
+.text1{
+    top: 43%;
+    left: 50%;
+    width: 50%;
+}
+.text2{
+    top: 60%;
+    left: 45%;
+    width: 30%;
+
 }
 .rubrik{
     position: sticky;
@@ -73,7 +87,7 @@ h3{
     top: 0;
 }
 
-.links {
+.länkar {
     position: absolute;
     display: flex;
     top: 20%;
@@ -85,7 +99,7 @@ h3{
     border: 1px solid black;
     border-radius: 20px;
 }
-.länkar{
+.länk{
     position: relative;
     background-color: darkgrey; 
     text-decoration: none;
@@ -97,7 +111,7 @@ h3{
     border-radius: 5%;
     font-size: 1.5vw;
 }
-.länkar:hover {
+.länk:hover {
     width: 25%;
     height: 90%;
     top: 3%;
